@@ -1,0 +1,71 @@
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #25293c;
+}
+
+.table-container th,
+td {
+    text-align: left;
+    padding: 8px;
+    color: #8a92bc;
+}
+
+.table-container th {
+    background: #25293c;
+}
+
+.table-pagination {
+    display: flex;
+    justify-content: start;
+    margin: 0.5rem 0;
+}
+
+.table-pagination button {
+    margin-right: 0.5rem;
+    border: 0;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.1rem;
+    background: #25293c;
+    color: #c6c5c5;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.table-pagination button:hover {
+    background: #393c4e;
+}
+
+.table-container th {
+    cursor: pointer;
+}
+
+.table-header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-header-container input {
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    border: 0;
+    padding: 0 0.5rem;
+    background: #25293c;
+    color: #8a92bc;
+}
+
+.table-title {
+    color: #8a92bc;
+    margin: 0 0 1rem 0;
+}

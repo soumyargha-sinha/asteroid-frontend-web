@@ -1,0 +1,14 @@
+.info-chip {
+    border-radius: 4rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.info-danger {
+    background: #942929;
+    color: #FFF;
+}
+
+.info-safe {
+    background: #18693f;
+    color: #FFF;
+}

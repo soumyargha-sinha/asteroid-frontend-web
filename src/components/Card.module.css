@@ -1,0 +1,42 @@
+
+.card {
+    position: relative;
+    /* background-color: #333; */
+    background-color: #1a1d26;
+    background-color: var(--card-bg-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    width: 100%;
+    text-align: center;
+    /* box-shadow: 2px 2px 5px #282626; */
+    box-shadow: 2px 2px 5px var(--card-box-shadow-color);
+    min-height: 8rem;
+    /* line-height: 1rem; */
+}
+
+.card-top-bordered::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centers the pseudo-element horizontally */
+    width: 20%;
+    /* 25% of the card's width */
+    height: 0.15rem;
+    /* Adjust thickness of the border here */
+    background-color: var(--accent-color);
+    /* Color of the border */
+    border-radius: 1px;
+    /* Rounds the edges of the border */
+}
+
+.card-title {
+    color: var(--card-title-color);
+    margin: 0 0 1rem 0;
+}
+
+.expand-2 {
+    grid-column: span 2;
+}

@@ -1,0 +1,45 @@
+.metric-type {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #8a92bc;
+}
+
+.metric-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #8a92bc;
+    line-height: 1rem;
+}
+
+.metric-value {
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: var(--metric-color);
+}
+
+.single-value-metric {
+    font-size: 5rem;
+    margin-bottom: 0;
+    line-height: 0
+}
+
+@media (max-width: 1130px) {
+    .single-value-metric {
+        margin-bottom: 2rem;
+    }
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.loader-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
