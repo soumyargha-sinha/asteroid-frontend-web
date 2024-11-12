@@ -23,8 +23,7 @@ interface LineChartProps {
 }
 
 const LineChart: React.FC<LineChartProps> = ({ data1, data2, label1, label2, days }) => {
-    const [showLine1, setShowLine1] = useState(true);
-    const [showLine2, setShowLine2] = useState(true);
+    const showLine1 = true, showLine2 = true;
     const data = {
         labels: days,
         datasets: [

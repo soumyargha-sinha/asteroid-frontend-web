@@ -19,7 +19,7 @@ interface UnitConstants {
 type UnitsKey = 'kilometers' | 'meters' | 'miles' | 'feet' | 'kilometers_per_second' | 'kilometers_per_hour' | 'miles_per_hour' | 'astronomical' | 'lunar';
 
 const AsteroidTable = React.memo(({ asteroidsProp, tableTitle, units }: { asteroidsProp: any[], tableTitle: string, units: Units }) => {
-    const [asteroids, setAsteroids] = useState(asteroidsProp);
+    const [asteroids] = useState(asteroidsProp);
     const [filteredAsteroids, setFilteredAsteroids] = useState(asteroidsProp);
     const [currentPage, setCurrentPage] = useState(0);
     const [query, setQuery] = useState('');
