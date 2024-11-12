@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { getTimeForCountdown } from '../utils/requestUtils';
 import InfoChip from './InfoChip';
 import { Units } from '../interfaces/Units';

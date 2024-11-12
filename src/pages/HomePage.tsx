@@ -16,7 +16,7 @@ import { ThemeToggle } from '../components/ThemeToggle';
 import Spinner from '../components/Spinner';
 
 export const HomePage = () => {
-    const { dateParameters, data, loading, nearestAsteroid, filteredAsteroidsData, dayOfTheWeekCounts, diameterUnit, velocityUnit, missDistanceUnit, updateDiameterUnit, updateVelocityUnit, updateMissDistanceUnit } = useAsteroidContext();
+    const { dateParameters, data, /* loading, */ nearestAsteroid, filteredAsteroidsData, dayOfTheWeekCounts, diameterUnit, velocityUnit, missDistanceUnit, updateDiameterUnit, updateVelocityUnit, updateMissDistanceUnit } = useAsteroidContext();
     const { startDate, endDate, setStartDate, setEndDate } = dateParameters;
     const [showUnits, setShowUnits] = useState(false);
 

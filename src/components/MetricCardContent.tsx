@@ -1,5 +1,5 @@
-import React from 'react'
-import Spinner from './Spinner'
+import React from 'react';
+import Spinner from './Spinner';
 import styles from './MetricCardContent.module.css';
 
 const MetricCardContent: React.FC<any> = React.memo(({ data }: any) => {

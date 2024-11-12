@@ -1,6 +1,6 @@
 import React, { createContext, useContext, ReactNode, useMemo, useState, useEffect } from 'react';
 import { useAsteroidData } from '../hooks/useAsteroidData';
-import { calculateNearestAsteroid, calculateFarthestAsteroid, filterPotentiallyHazardousAsteroids, getFilteredAsteroidData, getAsteroidCountsByDayOfWeek } from '../utils/asteroidCalculations';
+import { calculateNearestAsteroid, calculateFarthestAsteroid, getFilteredAsteroidData, getAsteroidCountsByDayOfWeek } from '../utils/asteroidCalculations';
 import { AsteroidContextProps } from '../interfaces/AsteroidContrextProps';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import styles from './Footer.module.css';
 import { FaHeart } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';

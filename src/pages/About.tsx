@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 const About = () => {
     return (
@@ -28,6 +28,7 @@ const About = () => {
             </ul>
             <h2>Contact</h2>
             <p>If you have any questions or suggestions, feel free to reach out via email (decidekorataichaaper@gmail.com) or visit my <a href="https://github.com/soumyargha-sinha/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+            <p>Source code: <a href="https://github.com/soumyargha-sinha/asteroid-frontend-web" target="_blank" rel="noopener noreferrer">Frontend</a>, <a href="https://github.com/soumyargha-sinha/asteroid-backend" target="_blank" rel="noopener noreferrer">Backend</a></p>
         </div>
     )
 }
