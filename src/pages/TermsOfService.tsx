@@ -52,7 +52,8 @@ const TermsOfService = () => {
                 These Terms are governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.<br /><br />
 
                 <strong>9. Contact Us</strong><br />
-                If you have any questions or concerns about these Terms of Service, please contact us at:<br />
+                If you have any questions or concerns about these Terms of Service, please contact us at: decidekorataichaaper@gmail.com
+                <br />
             </p>
 
         </div>

@@ -15,12 +15,14 @@ const PrivacyPolicy = () => {
                 - <strong>Theme Preferences:</strong> Your selected theme settings to customize the app’s appearance.<br />
                 - <strong>Asteroid Data:</strong> Asteroid-related information for use within the dashboard.<br />
                 - <strong>Units Preference:</strong> Your preferred units for various measurements (e.g., kilometers, miles, etc.).<br />
-                This data is stored locally in your browser and is not transmitted to our servers unless specifically requested.<br /><br />
+                This data is stored locally in your browser and is not transmitted to our servers unless specifically requested.<br />
+                - User's IP address is logged in order to limit a user's number of requests sent to the website in a particular time period.<br /><br />
 
                 <strong>2. How We Use Your Information</strong><br />
                 The data we store in your browser is used to:<br />
                 - Provide personalized settings such as your theme and units preference.<br />
-                - Store asteroid data for future use in the dashboard.<br /><br />
+                - Store asteroid data for future use in the dashboard.<br />
+                - The IP address log is used to limit requests to the website from the same IP address in a particular period of time. <br /><br />
 
                 <strong>3. Data Security</strong><br />
                 The data stored in your local storage is device-specific and not transmitted to our servers. We do not collect personal or sensitive data unless explicitly stated. Local storage data is accessible only from the browser on your device, and you can clear it at any time through your browser settings or within the app.<br /><br />
@@ -37,7 +39,7 @@ const PrivacyPolicy = () => {
                 We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to periodically review this policy for any changes.<br /><br />
 
                 <strong>7. Contact Us</strong><br />
-                If you have any questions about this Privacy Policy, please contact us at:<br />
+                If you have any questions about this Privacy Policy, please contact us at: decidekorataichaaper@gmail.com<br />
             </p>
 
         </div>

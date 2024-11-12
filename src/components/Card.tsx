@@ -7,7 +7,8 @@ export const Card: React.FC<CardProps> = React.memo(({ title, styleData, data, c
         <div className={`${styles['card']} 
      ${styles[styleData?.topBorder || '']} 
      ${styles[styleData?.expand ? 'expand-' + styleData.expand : '']} 
-     ${styles[styleData?.contentType || '']}`
+     ${styles[styleData?.contentType || '']} 
+     ${styles[styleData?.tableCard || '']} `
         }>
             {title && <h3 className={`${styles['card-title']}`}>{title}</h3>}
             {data && <p>{data}</p>}

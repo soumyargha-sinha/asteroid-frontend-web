@@ -40,3 +40,8 @@
 .expand-2 {
     grid-column: span 2;
 }
+
+.table-card {
+    max-width: 100%;
+    overflow: auto;
+}

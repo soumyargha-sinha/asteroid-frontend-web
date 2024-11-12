@@ -71,9 +71,9 @@ export const asteroidConstants = {
       ],
    },
    defaultUnitValues: {
-      defaultDiameterUnit: 'kilometers',
-      defaultVelocityUnit: 'kilometers_per_hour',
-      defaultMissDistance: 'kilometers'
+      defaultDiameterUnit: 'miles',
+      defaultVelocityUnit: 'miles_per_hour',
+      defaultMissDistance: 'miles'
    },
    unitShorthands: {
       "kilometers": "km" as any,

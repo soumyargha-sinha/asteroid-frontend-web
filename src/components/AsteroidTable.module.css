@@ -3,26 +3,23 @@
     width: 100%;
 }
 
-.table-container {
-    overflow-x: auto;
-}
-
 .table-container table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 2px solid #25293c;
+    border: 2px solid var(--table-color);
+    ;
 }
 
 .table-container th,
 td {
     text-align: left;
-    padding: 8px;
-    color: #8a92bc;
+    padding: 0.5rem;
+    color: var(--card-title-color);
 }
 
 .table-container th {
-    background: #25293c;
+    background: var(--table-color);
 }
 
 .table-pagination {
@@ -36,15 +33,15 @@ td {
     border: 0;
     padding: 0.5rem 0.5rem;
     border-radius: 0.1rem;
-    background: #25293c;
-    color: #c6c5c5;
+    background: var(--table-color);
+    color: var(--button-text-color);
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 .table-pagination button:hover {
-    background: #393c4e;
+    background: VAR(--table-button-hover-color);
 }
 
 .table-container th {
@@ -61,11 +58,45 @@ td {
     border-radius: 0.2rem;
     border: 0;
     padding: 0 0.5rem;
-    background: #25293c;
-    color: #8a92bc;
+    background: var(--table-color);
+    color: var(--card-title-color);
+}
+
+@media (max-width: 767px) {
+    .table-header-container {
+        flex-direction: column;
+    }
+
+    .table-header-container input {
+        padding: 0.5rem;
+    }
 }
 
 .table-title {
-    color: #8a92bc;
+    color: var(--card-title-color);
     margin: 0 0 1rem 0;
+}
+
+
+.table-container::-webkit-scrollbar {
+    height: 1rem;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background-color: var(--card-title-color);
+    border-radius: 0.5rem;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: var(--table-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--card-title-color);
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: var(--button-bg-color);
+}
+
+.table-container::-webkit-scrollbar-corner {
+    background-color: var(--table-color);
 }

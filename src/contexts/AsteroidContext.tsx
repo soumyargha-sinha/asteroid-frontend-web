@@ -11,9 +11,9 @@ export const AsteroidProvider: React.FC<{ children: ReactNode }> = ({ children }
     const [endDate, setEndDate] = useState<string>('');
     const dateParameters = { startDate, endDate, setStartDate, setEndDate };
 
-    const defaultDiameterUnit = 'kilometers';
-    const defaultVelocityUnit = 'kilometers_per_hour';
-    const defaultMissDistance = 'kilometers';
+    const defaultDiameterUnit = 'miles';
+    const defaultVelocityUnit = 'miles_per_hour';
+    const defaultMissDistance = 'miles';
     const expiryTimeInMs = 60 * 60 * 1000;
 
     const { cachedData: diameterUnit, setData: setDiameterUnit } = useLocalStorage('diameterUnit', expiryTimeInMs);

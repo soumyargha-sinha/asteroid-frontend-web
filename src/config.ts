@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.ASTEROID_BACKEND_API_V1_BASE_URL;
+const BASE_URL = import.meta.env.VITE_ASTEROID_BACKEND_API_V1_BASE_URL;
 
 export const API_ENDPOINTS = {
     ASTEROIDS: `${BASE_URL}`,

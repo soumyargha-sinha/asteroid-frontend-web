@@ -52,6 +52,7 @@ export const HomePage = () => {
 
     const topBorderCardProp = useMemo(() => ({ topBorder: 'card-top-bordered' }), []);
     const graphCardProp = useMemo(() => ({ contentType: 'graph' }), []);
+    const tableCardProp = useMemo(() => ({ tableCard: 'table-card' }),[]);
 
     // const [testdata, setTestdata] = useState(1);
     const handleDiameterChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -148,7 +149,7 @@ export const HomePage = () => {
                                     </select>
                                 </div>
                                 <div className={styles['form-group']}>
-                                    <label>Diameter</label>
+                                    <label>Miss Distance</label>
                                     <select value={missDistanceUnit} onChange={handleMissDistanceChange}>
                                         {unitValues.missDistance.map((unit) => (
                                             <option key={unit.value} value={unit.value}>
@@ -203,7 +204,7 @@ export const HomePage = () => {
                     </Card>
                 </div>
                 <div className={`${styles["data-panel"]} ${styles["grid-3-1"]}`}>
-                    <Card>
+                    <Card styleData={tableCardProp}>
                         {data && (memoizedAsteroidTable)}
                         {!data && <Spinner />}
                     </Card>

@@ -3,6 +3,7 @@ import { getTimeForCountdown } from '../utils/requestUtils';
 import InfoChip from './InfoChip';
 import { Units } from '../interfaces/Units';
 import styles from './Countdown.module.css';
+import { asteroidConstants } from '../config/AsteroidConstants';
 
 const Countdown = ({ data, units }: { data: any, units: Units }) => {
     const [countdownTime, setCountdownTime] = useState<number | null>(null);
@@ -45,7 +46,7 @@ const Countdown = ({ data, units }: { data: any, units: Units }) => {
             </div>
             {nextAsteroid && units.missDistance && (
                 <div>
-                    Miss Distance: {(Math.ceil(nextAsteroid.close_approach_data[0].miss_distance[units.missDistance] * 100) / 100) + ' km'}
+                    Miss Distance: {(Math.ceil(nextAsteroid.close_approach_data[0].miss_distance[units.missDistance] * 100) / 100) + ` ${asteroidConstants.unitShorthands[units.missDistance]}`}
                 </div>
             )}
         </div>

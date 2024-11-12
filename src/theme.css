@@ -9,9 +9,12 @@
     --card-title-color: #36456b;
     --button-bg-color: #e8e9eb;
     --button-text-color: #333333;
+    --button-hover-color: #ffffff;
     --accent-color: #36456b;
     --border-color: #c2c2c2;
     --metric-color: #1a1d26;
+    --table-color: #d7d7d7;
+    --table-button-hover-color: #FFFFFF;
 }
 
 body.dark-mode {
@@ -22,9 +25,12 @@ body.dark-mode {
     --card-title-color: #8a92bc;
     --button-bg-color: #1a1d26;
     --button-text-color: #c6c5c5;
+    --button-hover-color: #1c2035;
     --accent-color: #3d5ba7;
     --border-color: #25293c;
     --metric-color: #FFF;
+    --table-color: #25293c;
+    --table-button-hover-color: #393c4e;
 }
 
 *,
@@ -117,7 +123,7 @@ button {
 }
 
 button:hover {
-    background: #1c2035;
+    background: var(--button-hover-color);
 }
 
 .top-logo {
